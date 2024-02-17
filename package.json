@@ -1,0 +1,24 @@
+{
+  "name": "hackerrank",
+  "version": "0.0.1",
+  "description": "Contains Hackerrank DSA problems with solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayyanmoin/hackerrank.git"
+  },
+  "author": "Rayyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rayyanmoin/hackerrank/issues"
+  },
+  "homepage": "https://github.com/rayyanmoin/hackerrank#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.5"
+  }
+}
