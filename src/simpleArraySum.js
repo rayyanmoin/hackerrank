@@ -41,5 +41,5 @@ function simpleArraySum(ar) {
   for (let i = 0; i < ar.length; i++) {
     sum += ar[i]
   }
-  return sum;
+  return sum
 }
