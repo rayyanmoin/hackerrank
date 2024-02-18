@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "index": "nodemon index.js",
     "lint": "eslint .  --ext .js",
-    "lint-fix": "eslint --fix .  --ext .js --ignore-path package-lock.json"
+    "lint-fix": "eslint --fix .  --ext .js --ignore-path package-lock.json",
+    "format": "prettier --write .  --ext .js --ignore-path package-lock.json"
   },
   "repository": {
     "type": "git",
