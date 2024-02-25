@@ -43,3 +43,5 @@ function simpleArraySum(ar) {
   }
   return sum
 }
+
+simpleArraySum([1, 2, 3, 4])

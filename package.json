@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "index": "nodemon index.js",
+    "avbs": "nodemon src/aVeryBigSum.js",
+    "dd": "nodemon src/diagonalDifference.js",
     "lint": "eslint .  --ext .js",
     "lint-fix": "eslint --fix .  --ext .js --ignore-path package-lock.json",
     "format": "prettier --write .  --ext .js --ignore-path package-lock.json"

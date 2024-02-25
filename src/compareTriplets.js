@@ -74,8 +74,8 @@ is [2, 1].
  */
 
 function compareTriplets(a, b) {
-  Alice = 0
-  Bob = 0
+  let Alice = 0
+  let Bob = 0
   if (b.length != a.length) {
     throw new Error('Length does not match')
   }
@@ -88,3 +88,4 @@ function compareTriplets(a, b) {
   }
   return [Alice, Bob]
 }
+compareTriplets([1, 17, 28, 77], [30, 99, 16, 8])
