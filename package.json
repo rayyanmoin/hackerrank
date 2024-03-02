@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "index": "nodemon index.js",
+    "pm": "nodemon src/plusMinus.js",
+    "st": "nodemon src/staircase.js",
     "avbs": "nodemon src/aVeryBigSum.js",
     "dd": "nodemon src/diagonalDifference.js",
     "lint": "eslint .  --ext .js",
