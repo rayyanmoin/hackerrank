@@ -10,6 +10,8 @@
     "st": "nodemon src/staircase.js",
     "avbs": "nodemon src/aVeryBigSum.js",
     "dd": "nodemon src/diagonalDifference.js",
+    "bcc": "nodemon src/birthdayCakeCandles.js",
+    "mm": "nodemon src/minMax.js",
     "lint": "eslint .  --ext .js",
     "lint-fix": "eslint --fix .  --ext .js --ignore-path package-lock.json",
     "format": "prettier --write .  --ext .js --ignore-path package-lock.json"
